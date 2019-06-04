@@ -28,3 +28,7 @@ aws lambda invoke --invocation-type RequestResponse \
 cat outputfile.txt | jq -r
 {"ip": "176.10.99.200", "ip_decimal": 2953470920, "country": "Switzerland", "country_iso": "CH", "port": 9563}
 ```
+
+## Extras
+
+If you want to use aws lambda layer, there is [another project](https://github.com/qrtt1/lambda-layer-tor) to provide the prebuilt tor layer.
